@@ -14,6 +14,7 @@ import OrionInteraction from "../components/sections/OrionInteraction";
 import DashboardPreview from "../components/DashboardPreview";
 import WhyDifferent from "../components/sections/WhyDifferent";
 import FinalWaitlist from "../components/sections/FinalWaitlist";
+import ScrollMouseIndicator from "../components/ScrollMouseIndicator";
 
 const Index = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -152,21 +153,13 @@ const Index = () => {
             </motion.p>
           </div>
 
-          {/* Subtle scroll indicator */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 3, duration: 1.5 }}
-            className="absolute bottom-12 z-10 flex flex-col items-center gap-3"
+            transition={{ delay: 2, duration: 1.2 }}
+            className="absolute bottom-10 z-10"
           >
-            <motion.div
-              animate={{ y: [0, 8, 0] }}
-              transition={{ repeat: Infinity, duration: 2.5, ease: "easeInOut" }}
-              className="flex flex-col items-center"
-            >
-              <div className="w-px h-12 bg-gradient-to-b from-transparent via-foreground/10 to-foreground/20" />
-              <div className="w-1 h-1 rounded-full bg-foreground/20 mt-1" />
-            </motion.div>
+            <ScrollMouseIndicator />
           </motion.div>
         </motion.div>
       </div>
