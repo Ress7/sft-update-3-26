@@ -33,6 +33,9 @@ const InviteCodeEntry = ({ onSuccess, onBack }: InviteCodeEntryProps) => {
     if (code.length === 6 && newDigits.every((d) => d !== "")) {
       if (code === VALID_CODE) {
         setSuccess(true);
+        try {
+          localStorage.setItem("sf_invite_ok", "true");
+        } catch {}
         setTimeout(onSuccess, 1500);
       } else {
         setError(true);
@@ -63,6 +66,9 @@ const InviteCodeEntry = ({ onSuccess, onBack }: InviteCodeEntryProps) => {
     if (code.length === 6) {
       if (code === VALID_CODE) {
         setSuccess(true);
+        try {
+          localStorage.setItem("sf_invite_ok", "true");
+        } catch {}
         setTimeout(onSuccess, 1500);
       } else {
         setError(true);
