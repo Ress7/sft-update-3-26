@@ -5,24 +5,29 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const slides = [
   {
-    src: "/images/preview-terminal.jpg",
-    label: "Trading Terminal",
-    desc: "Real-time TradingView charts with order execution",
+    src: "/images/preview-trade.svg",
+    label: "Trade",
+    desc: "NVDA chart, order panel and live watchlist",
   },
   {
-    src: "/images/preview-dashboard.jpg",
-    label: "Dashboard",
-    desc: "Portfolio overview, watchlists & performance",
+    src: "/images/preview-portfolio.svg",
+    label: "Portfolio",
+    desc: "Holdings, total P&L and allocation overview",
   },
   {
-    src: "/images/preview-orion.jpg",
-    label: "Orion AI",
-    desc: "Conversational AI for market intelligence",
+    src: "/images/preview-social.svg",
+    label: "Social",
+    desc: "Leaderboard with win rate and follower metrics",
   },
   {
-    src: "/images/preview-portfolio.jpg",
-    label: "Analytics",
-    desc: "Asset allocation, risk metrics & deep insights",
+    src: "/images/preview-connect.svg",
+    label: "Connect Broker",
+    desc: "Select a broker to enable live trading",
+  },
+  {
+    src: "/images/preview-settings.svg",
+    label: "Settings",
+    desc: "Profile, privacy controls and notifications",
   },
 ];
 

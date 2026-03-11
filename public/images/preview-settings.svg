@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#0b0b0b"/>
+  <text x="80" y="120" fill="#a3a3a3" font-size="48" font-family="system-ui, -apple-system, Segoe UI, Roboto">Settings — Profile · Privacy · Notifications</text>
+  <rect x="100" y="180" width="780" height="420" rx="28" fill="#111" stroke="#1f1f1f"/>
+  <text x="130" y="230" fill="#cfcfcf" font-size="28">Profile</text>
+  <rect x="130" y="260" width="300" height="46" rx="10" fill="#181818" stroke="#2a2a2a"/>
+  <rect x="130" y="320" width="300" height="46" rx="10" fill="#181818" stroke="#2a2a2a"/>
+  <text x="130" y="400" fill="#cfcfcf" font-size="26">Privacy &amp; Social</text>
+  <rect x="130" y="430" width="160" height="34" rx="17" fill="#272727"/>
+  <circle cx="160" cy="447" r="13" fill="#ff8c3a"/>
+  <text x="320" y="447" fill="#777" font-size="20">Public Profile</text>
+  <text x="130" y="510" fill="#cfcfcf" font-size="26">Notifications</text>
+  <rect x="130" y="540" width="160" height="34" rx="17" fill="#272727"/>
+  <circle cx="160" cy="557" r="13" fill="#ff8c3a"/>
+  <rect x="960" y="200" width="480" height="280" rx="24" fill="#222" stroke="#333"/>
+  <text x="980" y="240" fill="#cfcfcf" font-size="26">Your Trader Card</text>
+  <rect x="980" y="270" width="440" height="180" rx="22" fill="#5b5b73"/>
+  <text x="1000" y="310" fill="#ffffff" font-size="28">Silver · Active</text>
+  <text x="1000" y="350" fill="#aaf0a0" font-size="24">Win rate 62% · +48.2%</text>
+  <text x="1000" y="390" fill="#d0d0ff" font-size="20">Followers 24</text>
+</svg>

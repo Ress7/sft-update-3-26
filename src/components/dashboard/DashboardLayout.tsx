@@ -5,7 +5,7 @@ import StoneforgeLogo from "../StoneforgeLogo";
 import { useTheme } from "../ThemeProvider";
 import {
   BarChart3, TrendingUp, Briefcase, Bot, Users, Settings,
-  Bell, ChevronLeft, ChevronRight, Link2, Menu, X, Sun, Moon
+  Bell, ChevronLeft, ChevronRight, Link2, Menu, X, Sun, Moon, Newspaper
 } from "lucide-react";
 
 const navItems = [
@@ -14,6 +14,7 @@ const navItems = [
   { label: "Portfolio", icon: Briefcase, path: "/dashboard/portfolio" },
   { label: "Orion AI", icon: Bot, path: "/dashboard/orion" },
   { label: "Social", icon: Users, path: "/dashboard/social" },
+  { label: "News", icon: Newspaper, path: "/dashboard/news" },
   { label: "Settings", icon: Settings, path: "/dashboard/settings" },
 ];
 

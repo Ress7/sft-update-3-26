@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#0b0b0b"/>
+  <text x="80" y="120" fill="#a3a3a3" font-size="48" font-family="system-ui, -apple-system, Segoe UI, Roboto">Trade — NVDA Chart · Order Panel · Watchlist</text>
+  <rect x="100" y="180" width="1100" height="420" rx="24" fill="#121212" stroke="#1f1f1f"/>
+  <polyline points="140,520 280,460 420,520 560,480 700,520 840,500 980,540 1120,500" fill="none" stroke="#ff9333" stroke-width="4"/>
+  <text x="1120" y="210" fill="#aaf0a0" font-size="26">NVDA · $874.15</text>
+  <rect x="100" y="620" width="1100" height="160" rx="24" fill="#121212" stroke="#1f1f1f"/>
+  <text x="140" y="680" fill="#cfcfcf" font-size="28">Place Order</text>
+  <rect x="1280" y="180" width="220" height="600" rx="24" fill="#121212" stroke="#1f1f1f"/>
+  <text x="1300" y="220" fill="#cfcfcf" font-size="26">Watchlist</text>
+  <g fill="#8bd68e">
+    <rect x="1300" y="260" width="180" height="28" rx="6"/>
+    <rect x="1300" y="300" width="180" height="28" rx="6" fill="#85b6ff"/>
+    <rect x="1300" y="340" width="180" height="28" rx="6" fill="#ffa2a2"/>
+    <rect x="1300" y="380" width="180" height="28" rx="6" fill="#ffd37a"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#0b0b0b"/>
+  <text x="80" y="120" fill="#a3a3a3" font-size="48" font-family="system-ui, -apple-system, Segoe UI, Roboto">Connect Broker — Choose a broker to trade</text>
+  <rect x="100" y="180" width="1400" height="160" rx="26" fill="#241b35"/>
+  <text x="130" y="240" fill="#d0bfff" font-size="28">Capital.com · Forex, CFDs · Featured</text>
+  <g fill="#151515" stroke="#222">
+    <rect x="100" y="380" width="200" height="140" rx="16"/>
+    <rect x="340" y="380" width="200" height="140" rx="16"/>
+    <rect x="580" y="380" width="200" height="140" rx="16"/>
+    <rect x="820" y="380" width="200" height="140" rx="16"/>
+    <rect x="1060" y="380" width="200" height="140" rx="16"/>
+    <rect x="1300" y="380" width="200" height="140" rx="16"/>
+  </g>
+  <text x="120" y="560" fill="#777" font-size="22">Paper Trading · Interactive Brokers · Alpaca · Binance · TD</text>
+</svg>

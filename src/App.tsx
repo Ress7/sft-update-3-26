@@ -15,6 +15,7 @@ import Orion from "./pages/dashboard/Orion";
 import Social from "./pages/dashboard/Social";
 import Settings from "./pages/dashboard/Settings";
 import ConnectBroker from "./pages/dashboard/ConnectBroker";
+import News from "./pages/dashboard/News";
 
 const queryClient = new QueryClient();
 
@@ -39,8 +40,9 @@ const App = () => (
           <Route path="/dashboard/portfolio" element={<ProtectedRoute><Portfolio /></ProtectedRoute>} />
           <Route path="/dashboard/orion" element={<ProtectedRoute><Orion /></ProtectedRoute>} />
           <Route path="/dashboard/social" element={<ProtectedRoute><Social /></ProtectedRoute>} />
+          <Route path="/dashboard/news" element={<ProtectedRoute><News /></ProtectedRoute>} />
           <Route path="/dashboard/settings" element={<ProtectedRoute><Settings /></ProtectedRoute>} />
-          <Route path="/dashboard/connect-broker" element={<ConnectBroker />} />
+          <Route path="/dashboard/connect-broker" element={<ProtectedRoute><ConnectBroker /></ProtectedRoute>} />
           
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
